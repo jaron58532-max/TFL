@@ -1,0 +1,4 @@
+team_id,player_id,first_name,last_name,position,overall,age,contract_years,salary_millions,bonus_millions,captain
+TXS_NAC_FIRE,,Jalen,Carter,QB,84,27,4,8.5,3.0,True
+TXS_NAC_FIRE,,Micah,Reed,WR,82,25,3,6.2,2.0,False
+TXS_NAC_FIRE,,Andre,Wright,CB,79,26,3,4.8,1.4,False
