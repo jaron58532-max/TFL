@@ -1,0 +1,504 @@
+{
+  "teams": [
+    {
+      "team_id": "ALN_NAC_WATER",
+      "state": "Alabama",
+      "team_name": "Alabama",
+      "nickname": "Crimson Boars",
+      "abbr": "ALN",
+      "conf": "NAC",
+      "division": "Water",
+      "chant": "ALN! ALN! Let's go!"
+    },
+    {
+      "team_id": "AKN_NAC_WATER",
+      "state": "Alaska",
+      "team_name": "Alaska",
+      "nickname": "Polar Bears",
+      "abbr": "AKN",
+      "conf": "NAC",
+      "division": "Water",
+      "chant": "AKN! AKN! Let's go!"
+    },
+    {
+      "team_id": "AZN_NAC_WATER",
+      "state": "Arizona",
+      "team_name": "Arizona",
+      "nickname": "Roadrunners",
+      "abbr": "AZN",
+      "conf": "NAC",
+      "division": "Water",
+      "chant": "AZN! AZN! Let's go!"
+    },
+    {
+      "team_id": "ARN_NAC_WATER",
+      "state": "Arkansas",
+      "team_name": "Arkansas",
+      "nickname": "Razorbacks",
+      "abbr": "ARN",
+      "conf": "NAC",
+      "division": "Water",
+      "chant": "ARN! ARN! Let's go!"
+    },
+    {
+      "team_id": "CAN_NAC_WATER",
+      "state": "California",
+      "team_name": "California",
+      "nickname": "Golden Bears",
+      "abbr": "CAN",
+      "conf": "NAC",
+      "division": "Water",
+      "chant": "CAN! CAN! Let's go!"
+    },
+    {
+      "team_id": "CON_NAC_FIRE",
+      "state": "Colorado",
+      "team_name": "Colorado",
+      "nickname": "Bighorns",
+      "abbr": "CON",
+      "conf": "NAC",
+      "division": "Fire",
+      "chant": "CON! CON! Let's go!"
+    },
+    {
+      "team_id": "CTN_NAC_FIRE",
+      "state": "Connecticut",
+      "team_name": "Connecticut",
+      "nickname": "Huskies",
+      "abbr": "CTN",
+      "conf": "NAC",
+      "division": "Fire",
+      "chant": "CTN! CTN! Let's go!"
+    },
+    {
+      "team_id": "DEN_NAC_FIRE",
+      "state": "Delaware",
+      "team_name": "Delaware",
+      "nickname": "Blue Hens",
+      "abbr": "DEN",
+      "conf": "NAC",
+      "division": "Fire",
+      "chant": "DEN! DEN! Let's go!"
+    },
+    {
+      "team_id": "FLN_NAC_FIRE",
+      "state": "Florida",
+      "team_name": "Florida",
+      "nickname": "Gators",
+      "abbr": "FLN",
+      "conf": "NAC",
+      "division": "Fire",
+      "chant": "FLN! FLN! Let's go!"
+    },
+    {
+      "team_id": "GAN_NAC_FIRE",
+      "state": "Georgia",
+      "team_name": "Georgia",
+      "nickname": "Cherokee",
+      "abbr": "GAN",
+      "conf": "NAC",
+      "division": "Fire",
+      "chant": "Cherokee! Rise up!"
+    },
+    {
+      "team_id": "HIN_NAC_WIND",
+      "state": "Hawaii",
+      "team_name": "Hawaii",
+      "nickname": "Warriors",
+      "abbr": "HIN",
+      "conf": "NAC",
+      "division": "Wind",
+      "chant": "HIN! HIN! Let's go!"
+    },
+    {
+      "team_id": "IDN_NAC_WIND",
+      "state": "Idaho",
+      "team_name": "Idaho",
+      "nickname": "Broncos",
+      "abbr": "IDN",
+      "conf": "NAC",
+      "division": "Wind",
+      "chant": "IDN! IDN! Let's go!"
+    },
+    {
+      "team_id": "ILN_NAC_WIND",
+      "state": "Illinois",
+      "team_name": "Illinois",
+      "nickname": "Prairie Wolves",
+      "abbr": "ILN",
+      "conf": "NAC",
+      "division": "Wind",
+      "chant": "ILN! ILN! Let's go!"
+    },
+    {
+      "team_id": "INN_NAC_WIND",
+      "state": "Indiana",
+      "team_name": "Indiana",
+      "nickname": "Racers",
+      "abbr": "INN",
+      "conf": "NAC",
+      "division": "Wind",
+      "chant": "INN! INN! Let's go!"
+    },
+    {
+      "team_id": "IAN_NAC_WIND",
+      "state": "Iowa",
+      "team_name": "Iowa",
+      "nickname": "Hawkeyes",
+      "abbr": "IAN",
+      "conf": "NAC",
+      "division": "Wind",
+      "chant": "IAN! IAN! Let's go!"
+    },
+    {
+      "team_id": "KSN_NAC_GRASS",
+      "state": "Kansas",
+      "team_name": "Kansas",
+      "nickname": "Jayhawks",
+      "abbr": "KSN",
+      "conf": "NAC",
+      "division": "Grass",
+      "chant": "KSN! KSN! Let's go!"
+    },
+    {
+      "team_id": "KYN_NAC_GRASS",
+      "state": "Kentucky",
+      "team_name": "Kentucky",
+      "nickname": "Wildcats",
+      "abbr": "KYN",
+      "conf": "NAC",
+      "division": "Grass",
+      "chant": "KYN! KYN! Let's go!"
+    },
+    {
+      "team_id": "LAN_NAC_GRASS",
+      "state": "Louisiana",
+      "team_name": "Louisiana",
+      "nickname": "Choctaw",
+      "abbr": "LAN",
+      "conf": "NAC",
+      "division": "Grass",
+      "chant": "Choctaw! Stand tall!"
+    },
+    {
+      "team_id": "MEN_NAC_GRASS",
+      "state": "Maine",
+      "team_name": "Maine",
+      "nickname": "Black Bears",
+      "abbr": "MEN",
+      "conf": "NAC",
+      "division": "Grass",
+      "chant": "MEN! MEN! Let's go!"
+    },
+    {
+      "team_id": "MDN_NAC_GRASS",
+      "state": "Maryland",
+      "team_name": "Maryland",
+      "nickname": "Terrapins",
+      "abbr": "MDN",
+      "conf": "NAC",
+      "division": "Grass",
+      "chant": "MDN! MDN! Let's go!"
+    },
+    {
+      "team_id": "MAN_NAC_EARTH",
+      "state": "Massachusetts",
+      "team_name": "Massachusetts",
+      "nickname": "Minutemen",
+      "abbr": "MAN",
+      "conf": "NAC",
+      "division": "Earth",
+      "chant": "MAN! MAN! Let's go!"
+    },
+    {
+      "team_id": "MIN_NAC_EARTH",
+      "state": "Michigan",
+      "team_name": "Michigan",
+      "nickname": "Wolverines",
+      "abbr": "MIN",
+      "conf": "NAC",
+      "division": "Earth",
+      "chant": "MIN! MIN! Let's go!"
+    },
+    {
+      "team_id": "MNN_NAC_EARTH",
+      "state": "Minnesota",
+      "team_name": "Minnesota",
+      "nickname": "Lynx",
+      "abbr": "MNN",
+      "conf": "NAC",
+      "division": "Earth",
+      "chant": "MNN! MNN! Let's go!"
+    },
+    {
+      "team_id": "MSN_NAC_EARTH",
+      "state": "Mississippi",
+      "team_name": "Mississippi",
+      "nickname": "Magnolias",
+      "abbr": "MSN",
+      "conf": "NAC",
+      "division": "Earth",
+      "chant": "MSN! MSN! Let's go!"
+    },
+    {
+      "team_id": "MON_NAC_EARTH",
+      "state": "Missouri",
+      "team_name": "Missouri",
+      "nickname": "Show-Me Mules",
+      "abbr": "MON",
+      "conf": "NAC",
+      "division": "Earth",
+      "chant": "MON! MON! Let's go!"
+    },
+    {
+      "team_id": "MTS_SAC_WATER",
+      "state": "Montana",
+      "team_name": "Montana",
+      "nickname": "Grizzlies",
+      "abbr": "MTS",
+      "conf": "SAC",
+      "division": "Water",
+      "chant": "MTS! MTS! Let's go!"
+    },
+    {
+      "team_id": "NES_SAC_WATER",
+      "state": "Nebraska",
+      "team_name": "Nebraska",
+      "nickname": "Cornhuskers",
+      "abbr": "NES",
+      "conf": "SAC",
+      "division": "Water",
+      "chant": "NES! NES! Let's go!"
+    },
+    {
+      "team_id": "NVS_SAC_WATER",
+      "state": "Nevada",
+      "team_name": "Nevada",
+      "nickname": "Silver Wolves",
+      "abbr": "NVS",
+      "conf": "SAC",
+      "division": "Water",
+      "chant": "NVS! NVS! Let's go!"
+    },
+    {
+      "team_id": "NHS_SAC_WATER",
+      "state": "New Hampshire",
+      "team_name": "New Hampshire",
+      "nickname": "Wildcats",
+      "abbr": "NHS",
+      "conf": "SAC",
+      "division": "Water",
+      "chant": "NHS! NHS! Let's go!"
+    },
+    {
+      "team_id": "NJS_SAC_WATER",
+      "state": "New Jersey",
+      "team_name": "New Jersey",
+      "nickname": "Guardians",
+      "abbr": "NJS",
+      "conf": "SAC",
+      "division": "Water",
+      "chant": "NJS! NJS! Let's go!"
+    },
+    {
+      "team_id": "NMS_SAC_FIRE",
+      "state": "New Mexico",
+      "team_name": "New Mexico",
+      "nickname": "Road Warriors",
+      "abbr": "NMS",
+      "conf": "SAC",
+      "division": "Fire",
+      "chant": "NMS! NMS! Let's go!"
+    },
+    {
+      "team_id": "NYS_SAC_FIRE",
+      "state": "New York",
+      "team_name": "New York",
+      "nickname": "Empire",
+      "abbr": "NYS",
+      "conf": "SAC",
+      "division": "Fire",
+      "chant": "NYS! NYS! Let's go!"
+    },
+    {
+      "team_id": "NCS_SAC_FIRE",
+      "state": "North Carolina",
+      "team_name": "North Carolina",
+      "nickname": "Tar Heels",
+      "abbr": "NCS",
+      "conf": "SAC",
+      "division": "Fire",
+      "chant": "NCS! NCS! Let's go!"
+    },
+    {
+      "team_id": "NDS_SAC_FIRE",
+      "state": "North Dakota",
+      "team_name": "North Dakota",
+      "nickname": "Bison",
+      "abbr": "NDS",
+      "conf": "SAC",
+      "division": "Fire",
+      "chant": "NDS! NDS! Let's go!"
+    },
+    {
+      "team_id": "OHS_SAC_FIRE",
+      "state": "Ohio",
+      "team_name": "Ohio",
+      "nickname": "Buckeyes",
+      "abbr": "OHS",
+      "conf": "SAC",
+      "division": "Fire",
+      "chant": "OHS! OHS! Let's go!"
+    },
+    {
+      "team_id": "OKS_SAC_WIND",
+      "state": "Oklahoma",
+      "team_name": "Oklahoma",
+      "nickname": "Sooners",
+      "abbr": "OKS",
+      "conf": "SAC",
+      "division": "Wind",
+      "chant": "OKS! OKS! Let's go!"
+    },
+    {
+      "team_id": "ORS_SAC_WIND",
+      "state": "Oregon",
+      "team_name": "Oregon",
+      "nickname": "Ducks",
+      "abbr": "ORS",
+      "conf": "SAC",
+      "division": "Wind",
+      "chant": "ORS! ORS! Let's go!"
+    },
+    {
+      "team_id": "PAS_SAC_WIND",
+      "state": "Pennsylvania",
+      "team_name": "Pennsylvania",
+      "nickname": "Keystones",
+      "abbr": "PAS",
+      "conf": "SAC",
+      "division": "Wind",
+      "chant": "PAS! PAS! Let's go!"
+    },
+    {
+      "team_id": "RIS_SAC_WIND",
+      "state": "Rhode Island",
+      "team_name": "Rhode Island",
+      "nickname": "Rams",
+      "abbr": "RIS",
+      "conf": "SAC",
+      "division": "Wind",
+      "chant": "RIS! RIS! Let's go!"
+    },
+    {
+      "team_id": "SCS_SAC_WIND",
+      "state": "South Carolina",
+      "team_name": "South Carolina",
+      "nickname": "Gamecocks",
+      "abbr": "SCS",
+      "conf": "SAC",
+      "division": "Wind",
+      "chant": "SCS! SCS! Let's go!"
+    },
+    {
+      "team_id": "SDS_SAC_GRASS",
+      "state": "South Dakota",
+      "team_name": "South Dakota",
+      "nickname": "Coyotes",
+      "abbr": "SDS",
+      "conf": "SAC",
+      "division": "Grass",
+      "chant": "SDS! SDS! Let's go!"
+    },
+    {
+      "team_id": "TNS_SAC_GRASS",
+      "state": "Tennessee",
+      "team_name": "Tennessee",
+      "nickname": "Volunteers",
+      "abbr": "TNS",
+      "conf": "SAC",
+      "division": "Grass",
+      "chant": "TNS! TNS! Let's go!"
+    },
+    {
+      "team_id": "TXS_SAC_GRASS",
+      "state": "Texas",
+      "team_name": "Texas",
+      "nickname": "Sharpshooters",
+      "abbr": "TXS",
+      "conf": "SAC",
+      "division": "Grass",
+      "chant": "Bang! Bang! TXS!"
+    },
+    {
+      "team_id": "UTS_SAC_GRASS",
+      "state": "Utah",
+      "team_name": "Utah",
+      "nickname": "Utes",
+      "abbr": "UTS",
+      "conf": "SAC",
+      "division": "Grass",
+      "chant": "UTS! UTS! Let's go!"
+    },
+    {
+      "team_id": "VTS_SAC_GRASS",
+      "state": "Vermont",
+      "team_name": "Vermont",
+      "nickname": "Catamounts",
+      "abbr": "VTS",
+      "conf": "SAC",
+      "division": "Grass",
+      "chant": "VTS! VTS! Let's go!"
+    },
+    {
+      "team_id": "VAS_SAC_EARTH",
+      "state": "Virginia",
+      "team_name": "Virginia",
+      "nickname": "Cavaliers",
+      "abbr": "VAS",
+      "conf": "SAC",
+      "division": "Earth",
+      "chant": "VAS! VAS! Let's go!"
+    },
+    {
+      "team_id": "WAS_SAC_EARTH",
+      "state": "Washington",
+      "team_name": "Washington",
+      "nickname": "Cascades",
+      "abbr": "WAS",
+      "conf": "SAC",
+      "division": "Earth",
+      "chant": "WAS! WAS! Let's go!"
+    },
+    {
+      "team_id": "WVS_SAC_EARTH",
+      "state": "West Virginia",
+      "team_name": "West Virginia",
+      "nickname": "Mountaineers",
+      "abbr": "WVS",
+      "conf": "SAC",
+      "division": "Earth",
+      "chant": "WVS! WVS! Let's go!"
+    },
+    {
+      "team_id": "WIS_SAC_EARTH",
+      "state": "Wisconsin",
+      "team_name": "Wisconsin",
+      "nickname": "Badgers",
+      "abbr": "WIS",
+      "conf": "SAC",
+      "division": "Earth",
+      "chant": "WIS! WIS! Let's go!"
+    },
+    {
+      "team_id": "WYS_SAC_EARTH",
+      "state": "Wyoming",
+      "team_name": "Wyoming",
+      "nickname": "Cowboys",
+      "abbr": "WYS",
+      "conf": "SAC",
+      "division": "Earth",
+      "chant": "WYS! WYS! Let's go!"
+    }
+  ]
+}

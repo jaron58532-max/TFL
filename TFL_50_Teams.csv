@@ -1,0 +1,51 @@
+team_id,state,team_name,nickname,abbr,conf,division,chant
+ALN_NAC_WATER,Alabama,Alabama,Crimson Boars,ALN,NAC,Water,ALN! ALN! Let's go!
+AKN_NAC_WATER,Alaska,Alaska,Polar Bears,AKN,NAC,Water,AKN! AKN! Let's go!
+AZN_NAC_WATER,Arizona,Arizona,Roadrunners,AZN,NAC,Water,AZN! AZN! Let's go!
+ARN_NAC_WATER,Arkansas,Arkansas,Razorbacks,ARN,NAC,Water,ARN! ARN! Let's go!
+CAN_NAC_WATER,California,California,Golden Bears,CAN,NAC,Water,CAN! CAN! Let's go!
+CON_NAC_FIRE,Colorado,Colorado,Bighorns,CON,NAC,Fire,CON! CON! Let's go!
+CTN_NAC_FIRE,Connecticut,Connecticut,Huskies,CTN,NAC,Fire,CTN! CTN! Let's go!
+DEN_NAC_FIRE,Delaware,Delaware,Blue Hens,DEN,NAC,Fire,DEN! DEN! Let's go!
+FLN_NAC_FIRE,Florida,Florida,Gators,FLN,NAC,Fire,FLN! FLN! Let's go!
+GAN_NAC_FIRE,Georgia,Georgia,Cherokee,GAN,NAC,Fire,Cherokee! Rise up!
+HIN_NAC_WIND,Hawaii,Hawaii,Warriors,HIN,NAC,Wind,HIN! HIN! Let's go!
+IDN_NAC_WIND,Idaho,Idaho,Broncos,IDN,NAC,Wind,IDN! IDN! Let's go!
+ILN_NAC_WIND,Illinois,Illinois,Prairie Wolves,ILN,NAC,Wind,ILN! ILN! Let's go!
+INN_NAC_WIND,Indiana,Indiana,Racers,INN,NAC,Wind,INN! INN! Let's go!
+IAN_NAC_WIND,Iowa,Iowa,Hawkeyes,IAN,NAC,Wind,IAN! IAN! Let's go!
+KSN_NAC_GRASS,Kansas,Kansas,Jayhawks,KSN,NAC,Grass,KSN! KSN! Let's go!
+KYN_NAC_GRASS,Kentucky,Kentucky,Wildcats,KYN,NAC,Grass,KYN! KYN! Let's go!
+LAN_NAC_GRASS,Louisiana,Louisiana,Choctaw,LAN,NAC,Grass,Choctaw! Stand tall!
+MEN_NAC_GRASS,Maine,Maine,Black Bears,MEN,NAC,Grass,MEN! MEN! Let's go!
+MDN_NAC_GRASS,Maryland,Maryland,Terrapins,MDN,NAC,Grass,MDN! MDN! Let's go!
+MAN_NAC_EARTH,Massachusetts,Massachusetts,Minutemen,MAN,NAC,Earth,MAN! MAN! Let's go!
+MIN_NAC_EARTH,Michigan,Michigan,Wolverines,MIN,NAC,Earth,MIN! MIN! Let's go!
+MNN_NAC_EARTH,Minnesota,Minnesota,Lynx,MNN,NAC,Earth,MNN! MNN! Let's go!
+MSN_NAC_EARTH,Mississippi,Mississippi,Magnolias,MSN,NAC,Earth,MSN! MSN! Let's go!
+MON_NAC_EARTH,Missouri,Missouri,Show-Me Mules,MON,NAC,Earth,MON! MON! Let's go!
+MTS_SAC_WATER,Montana,Montana,Grizzlies,MTS,SAC,Water,MTS! MTS! Let's go!
+NES_SAC_WATER,Nebraska,Nebraska,Cornhuskers,NES,SAC,Water,NES! NES! Let's go!
+NVS_SAC_WATER,Nevada,Nevada,Silver Wolves,NVS,SAC,Water,NVS! NVS! Let's go!
+NHS_SAC_WATER,New Hampshire,New Hampshire,Wildcats,NHS,SAC,Water,NHS! NHS! Let's go!
+NJS_SAC_WATER,New Jersey,New Jersey,Guardians,NJS,SAC,Water,NJS! NJS! Let's go!
+NMS_SAC_FIRE,New Mexico,New Mexico,Road Warriors,NMS,SAC,Fire,NMS! NMS! Let's go!
+NYS_SAC_FIRE,New York,New York,Empire,NYS,SAC,Fire,NYS! NYS! Let's go!
+NCS_SAC_FIRE,North Carolina,North Carolina,Tar Heels,NCS,SAC,Fire,NCS! NCS! Let's go!
+NDS_SAC_FIRE,North Dakota,North Dakota,Bison,NDS,SAC,Fire,NDS! NDS! Let's go!
+OHS_SAC_FIRE,Ohio,Ohio,Buckeyes,OHS,SAC,Fire,OHS! OHS! Let's go!
+OKS_SAC_WIND,Oklahoma,Oklahoma,Sooners,OKS,SAC,Wind,OKS! OKS! Let's go!
+ORS_SAC_WIND,Oregon,Oregon,Ducks,ORS,SAC,Wind,ORS! ORS! Let's go!
+PAS_SAC_WIND,Pennsylvania,Pennsylvania,Keystones,PAS,SAC,Wind,PAS! PAS! Let's go!
+RIS_SAC_WIND,Rhode Island,Rhode Island,Rams,RIS,SAC,Wind,RIS! RIS! Let's go!
+SCS_SAC_WIND,South Carolina,South Carolina,Gamecocks,SCS,SAC,Wind,SCS! SCS! Let's go!
+SDS_SAC_GRASS,South Dakota,South Dakota,Coyotes,SDS,SAC,Grass,SDS! SDS! Let's go!
+TNS_SAC_GRASS,Tennessee,Tennessee,Volunteers,TNS,SAC,Grass,TNS! TNS! Let's go!
+TXS_SAC_GRASS,Texas,Texas,Sharpshooters,TXS,SAC,Grass,Bang! Bang! TXS!
+UTS_SAC_GRASS,Utah,Utah,Utes,UTS,SAC,Grass,UTS! UTS! Let's go!
+VTS_SAC_GRASS,Vermont,Vermont,Catamounts,VTS,SAC,Grass,VTS! VTS! Let's go!
+VAS_SAC_EARTH,Virginia,Virginia,Cavaliers,VAS,SAC,Earth,VAS! VAS! Let's go!
+WAS_SAC_EARTH,Washington,Washington,Cascades,WAS,SAC,Earth,WAS! WAS! Let's go!
+WVS_SAC_EARTH,West Virginia,West Virginia,Mountaineers,WVS,SAC,Earth,WVS! WVS! Let's go!
+WIS_SAC_EARTH,Wisconsin,Wisconsin,Badgers,WIS,SAC,Earth,WIS! WIS! Let's go!
+WYS_SAC_EARTH,Wyoming,Wyoming,Cowboys,WYS,SAC,Earth,WYS! WYS! Let's go!
