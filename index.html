@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TFL — Franchise</title>
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="brand">TFL</div>
+<nav id="tabs">
+<button class="tab active" data-tab="home">Home</button>
+<button class="tab" data-tab="gameday">Game Day</button>
+<button class="tab" data-tab="rosters">Rosters</button>
+<button class="tab" data-tab="standings">Standings</button>
+<button class="tab" data-tab="schedule">Schedule</button>
+<button class="tab" data-tab="media">Media</button>
+<button class="tab" data-tab="stats">Stats</button>
+<button class="tab" data-tab="college">College</button>
+<button class="tab" data-tab="frontoffice">Front Office</button>
+<button class="tab" data-tab="freeagency">Free Agency</button>
+<button class="tab" data-tab="trade">Trade</button>
+<button class="tab" data-tab="draft">Draft</button>
+<button class="tab" data-tab="settings">Settings</button>
+</nav></header>
+<main>
+<section id="home" class="panel show"><div class="card"><h2>Welcome</h2>
+<div class="row"><button id="btnNew">Start New League</button><button id="btnSave">Save</button><button id="btnLoad">Load</button></div>
+<div id="homeSummary" class="small"></div></div></section>
+<section id="gameday" class="panel"><div class="card"><h2>Game Day</h2>
+<div class="grid two"><div><div id="scoreboard"></div><canvas id="gdCanvas" width="640" height="220"></canvas><div id="gdHud" class="hud"></div>
+<div class="gd-controls"><div><h3>Offense</h3><select id="ofForm"><option>Singleback</option><option>I-Form</option><option>Shotgun</option><option>Trips</option><option>Goal Line</option></select>
+<div class="gridplays"><button class="play" data-call="run_inside">Run Inside</button><button class="play" data-call="run_outside">Run Outside</button><button class="play" data-call="short_pass">Short Pass</button><button class="play" data-call="deep_pass">Deep Pass</button><button class="play" data-call="play_action">Play Action</button></div></div>
+<div><h3>Defense</h3><select id="dfForm"><option>4-3</option><option>3-4</option><option>Nickel</option><option>Dime</option><option>Goal Line</option></select>
+<div class="gridplays"><button class="dplay" data-call="base">Base</button><button class="dplay" data-call="blitz">Blitz</button><button class="dplay" data-call="man">Man</button><button class="dplay" data-call="zone">Zone</button></div></div></div>
+<div class="row"><button id="btnSnap" class="primary">Snap</button><button id="btnSimDrive">Sim Drive</button><button id="btnKick">Kick (4th)</button></div></div>
+<div><h3>Play-by-Play</h3><div id="pbp" class="pbp"></div></div></div></div></section>
+<section id="rosters" class="panel"><div class="card"><h2>Rosters</h2><div class="row"><label>Team <select id="rosTeam"></select></label><div id="rosCap" class="small" style="margin-left:auto"></div></div><div id="rosList"></div></div></section>
+<section id="standings" class="panel"><div class="card"><h2>Standings</h2><div id="standingsList"></div></div></section>
+<section id="schedule" class="panel"><div class="card"><h2>Schedule</h2><div class="row"><button id="btnSimWeek">Sim Week</button><button id="btnSimSeason">Sim Season</button></div><div id="schedList"></div></div></section>
+<section id="media" class="panel"><div class="card"><h2>Media</h2><div id="mediaFeed"></div></div></section>
+<section id="stats" class="panel"><div class="card"><h2>Stats & Awards</h2><div id="awardsList"></div></div></section>
+<section id="college" class="panel"><div class="card"><h2>College Pool</h2><div id="collegeList"></div></div></section>
+<section id="frontoffice" class="panel"><div class="card"><h2>Front Office</h2><div class="row"><label>Team <select id="foTeam"></select></label><div class="switch"><input type="checkbox" id="postJune"> <label for="postJune">Post‑June 1 release</label></div><div id="foCap" style="margin-left:auto"></div></div><div id="foList"></div>
+<h3 style="margin-top:14px">Cap Projections (3 Years)</h3><button id="foExportCSV" class="csv-btn">Export 3-Year Projections (CSV)</button><div id="foProj"></div></div></section>
+<section id="freeagency" class="panel"><div class="card"><h2>Free Agent Market</h2><div class="row">
+<label>Position <select id="faPos"><option value="">All</option><option>QB</option><option>RB</option><option>WR</option><option>TE</option><option>OL</option><option>DL</option><option>LB</option><option>CB</option><option>S</option><option>K</option><option>P</option></select></label>
+<label>Sort <select id="faSort"><option value="ovr">OVR</option><option value="salary">$ Demand</option><option value="age">Age</option></select></label>
+<button id="faResignPhase">Re‑Sign Phase</button><button id="faSimDay" style="margin-left:auto">Advance Market Day</button></div><div id="faList"></div></div></section>
+<section id="trade" class="panel"><div class="card"><h2>Trade Center</h2><div class="filter-row" id="trFilters"><label>Target positions: <input id="trTargetPos" placeholder="WR,CB,OL"></label>
+<label>Exclude players: <input id="trExclude" placeholder="Name1, Name2"></label><label>Max Δ: <input id="trBand" type="number" value="18" style="width:70px"></label></div>
+<div class="row"><label>Team A <select id="trTeamA"></select></label><label>Team B <select id="trTeamB"></select></label><div id="trFairness" class="small"></div></div>
+<div class="grid two" id="trGrids"><div class="item"><h3>Team A Assets</h3><div id="trAPlayers"></div><h4>Draft Picks</h4><div id="trAPicks"></div></div><div class="item"><h3>Team B Assets</h3><div id="trBPlayers"></div><h4>Draft Picks</h4><div id="trBPicks"></div></div></div>
+<div class="row"><button id="trPropose" class="primary">Propose Trade</button><button id="trSuggest" style="margin-left:8px">Find Trades</button></div><div id="trResult" class="small"></div></div></section>
+<section id="draft" class="panel"><div class="card"><h2>TFL Draft (10 Rounds)</h2><div class="row"><div>Round <b id="drRound">1</b> • Pick <b id="drPick">1</b></div><div style="margin-left:auto">On the clock: <b id="drTeam">—</b></div></div>
+<div class="row"><button id="drStart" class="primary">Start Draft</button><button id="drAuto">Auto Pick</button><button id="drUserPick">Pick Best for My Team</button><button id="drUDFAStart">Start UDFA Period</button><button id="drUDFAOffer">Offer UDFA</button></div>
+<div class="grid two"><div><h3>Prospects</h3><div id="drProspects"></div></div><div><h3>Draft Log</h3><div id="drLog" class="small"></div></div></div></div></section>
+<section id="settings" class="panel"><div class="card"><h2>Settings</h2><div class="row"><label>Salary Cap <input id="setCap" type="number" step="1" value="200"></label><button id="btnApplyCap">Apply</button></div>
+<div class="row"><label><input type="checkbox" id="gdOnside"> Onside kick on next kickoff</label></div></div></section>
+</main>
+<div id="fgAimWrap"><div id="fgAim"><h3>Field Goal Aim</h3><div class="meter"><div class="sweet"></div><div class="bar" id="fgBar"></div></div><button id="fgTap" class="primary">Kick!</button></div></div>
+<script src="app.js"></script></body></html>
+
+<!-- QA Auto-placeholders to prevent null refs -->
+<div style='display:none'>
+<div id="resignList" style="display:none"></div>
+<div id="resignSubmit" style="display:none"></div>
+<div id="resignWrap" style="display:none"></div>
+</div>
